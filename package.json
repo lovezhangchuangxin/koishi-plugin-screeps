@@ -12,9 +12,9 @@
   ],
   "license": "MIT",
   "keywords": [
-    "chatbot",
+    "screeps",
     "koishi",
-    "plugin"
+    "koishi-plugin"
   ],
   "contributors": [
     "lovezhangchuangxin <2911331070@qq.com>"
