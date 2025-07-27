@@ -6,17 +6,37 @@
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
-    "dist"
+    "dist",
+    "Modelfile",
+    "readme.md"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
+  "contributors": [
+    "lovezhangchuangxin <2911331070@qq.com>"
+  ],
   "peerDependencies": {
     "koishi": "^4.18.7"
+  },
+  "dependencies": {
+    "canvas": "^3.1.2",
+    "koishi-plugin-cron": "^3.1.0",
+    "screeps-simple-api": "^1.3.1"
+  },
+  "koishi": {
+    "description": {
+      "en": "a screeps information query plugin",
+      "zh": "一个screeps的信息查询插件"
+    },
+    "service": {
+      "required": [
+        "database",
+        "cron"
+      ]
+    }
   }
 }
