@@ -1,4 +1,3 @@
-import chat from "./chat";
 import queryMarket from "./queryMarket";
 import queryNuke from "./queryNuke";
 import queryResource from "./queryResource";
@@ -11,5 +10,5 @@ export const commands = [
   queryUser,
   queryNuke,
   queryRoom,
-  chat,
+  // chat,
 ];
